@@ -1,0 +1,11 @@
+commit 8638d7786c0fee2afbfaa5e7aab1f709b580b57e
+Author: slava kasila <slvkosilo@gmail.com>
+Date:   Tue Jun 8 21:50:08 2021 +0300
+
+    add status.txt
+
+commit 962009428379973475c773f714d7edff53e3a023
+Author: slava kasila <slvkosilo@gmail.com>
+Date:   Tue Jun 8 21:48:16 2021 +0300
+
+    add .gitignore
