@@ -1,0 +1,1 @@
+Task was deploy apache with web-page without connecting to server with using SSH. Script has been added in user-data during instance launch.
