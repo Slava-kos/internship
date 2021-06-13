@@ -16,10 +16,10 @@
 
 ----
 
-+ The main goals of the mandatory part of first task were:
++ The main goals of the mandatory part of second task were:
   + Create an instance in Cloud (Create, deploy, terminate, SSH, web-server with page)
   + [Web URL](http://3.15.153.210/ "Task 2")
 + Extra part:
   + 1-st part - VPC (SSH between instances, PING) - /task2/extra1
-  + 2-nd part - bash script for web-server configuration with Hello world - /task2/extra1
-  
+  + 2-nd part - bash script for web-server configuration with Hello world - /task2/extra2
+  + 3-rd part - deploy web-server without connection through SSH - /task2/extra3
