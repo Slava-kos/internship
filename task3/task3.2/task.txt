@@ -1,0 +1,2 @@
+1. Image has been found in Dockerhub with using docker search hellob
+2. Docker pull <image name>>
