@@ -1,0 +1,2 @@
+Task was Use image with html page, edit html page and paste text: <Username> Sandbox 2021
+Has been took docker image HTTPD and replaced index.html during start "docker run -dit --name my-apache-app -p 80:80 -v "$PWD"/newindex/index.html:/usr/local/apache2/htdocs/index.html httpd"
