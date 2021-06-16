@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 
 LABEL maintainer="Slava"
 ARG DEVOPS
-ENV DEVOPS="SLAVA!"
+ENV DEVOPS="SVIATASLAU!"
 # Install updates to base image
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update \
