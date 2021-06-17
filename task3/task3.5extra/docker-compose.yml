@@ -1,0 +1,23 @@
+version: "2"
+services:
+    my:
+        env_file:
+            - env.my.set
+        image: slavakos/simplewhale:${MY_VERSION}
+        scale: 2
+    app:
+        env_file:
+            - env.java.set
+        image: bitnami/tomcat:${JAVA_VERSION}
+        container_name: second
+        ports:
+            - "8080:8080"
+        depends_on:
+            - "mongo"
+    mongo:
+        env_file:
+            - env.db.set
+        image: mongo:${DB_VERSION}
+        container_name: DB
+        volumes:
+            - "/home/ubuntu/task3.5/data:/data/db"
