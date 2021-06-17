@@ -1,0 +1,18 @@
+version: "2"
+services:
+    my:
+        image: slavakos/simplewhale:latest
+        scale: 2
+    app:
+        image: bitnami/tomcat:latest
+        container_name: second
+        ports:
+            - "8080:8080"
+        depends_on:
+            - "mongo"
+    mongo:
+        image: mongo
+        container_name: DB
+        volumes:
+            - "/home/ubuntu/task3.5/data:/data/db"
+    
